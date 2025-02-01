@@ -54,7 +54,6 @@ console.log(str1.split(" "));
 
 
 // Functions
-
 function solve(){
     var age=19;
     console.log(age);
