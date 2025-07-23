@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <style>
+        small{
+            color : red !important;
+            font-size : 12px;
+        }
+        #hide{
+            display : none;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <input pattern="[a-z]{3,8}" required minlength="3" maxlength="12" id="name" input="text" placeholder="name">
+        <div id = "hide">
+            <br>
+            <small>your name should be greater than 2 characters</small>
+        </div>
+        <br><br>
+        <input input="text" placeholder="email">
+        <br><br>
+        <input input="text" placeholder="password">
+        <br><br>
+        <select name="" id="">
+            <option value="male">male</option>
+            <option value="male">female</option>
+            <option value="male">others</option>
+        </select>    
+        <br><br>
+        <textarea name="" id="" placeholder="About yourself"></textarea>
+        <br><br>
+        <input type="submit">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
